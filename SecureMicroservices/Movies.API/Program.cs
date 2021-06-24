@@ -3,8 +3,6 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Movies.API.Data;
 using Movies.API.Data.Seed;
-using System.Threading.Tasks;
-
 namespace Movies.API
 {
     public class Program
