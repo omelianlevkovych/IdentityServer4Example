@@ -1,0 +1,21 @@
+﻿using Movies.Client.Models;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace Movies.Client.ApiServices
+{
+    public interface IMovieApiService
+    {
+        Task<IEnumerable<Movie>> GetMovies();
+
+        Task<Movie> GetMovie(long id);
+
+        Task<Movie> CreateMovie(Movie movie);
+
+        Task<Movie> UpdateMovie(Movie movie);
+
+        Task DeleteMovie(long id);
+    }
+}
