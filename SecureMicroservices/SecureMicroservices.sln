@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Movies.API", "Movies.API\Mo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecurityTokenService", "SecurityTokenService\SecurityTokenService.csproj", "{FC596957-C99D-4FEE-9143-6BDF8AA15981}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movies.Client", "Movies.Client\Movies.Client.csproj", "{F96F32DA-F3AE-4FEF-8E45-B89D1957C56F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{FC596957-C99D-4FEE-9143-6BDF8AA15981}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC596957-C99D-4FEE-9143-6BDF8AA15981}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC596957-C99D-4FEE-9143-6BDF8AA15981}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F96F32DA-F3AE-4FEF-8E45-B89D1957C56F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F96F32DA-F3AE-4FEF-8E45-B89D1957C56F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F96F32DA-F3AE-4FEF-8E45-B89D1957C56F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F96F32DA-F3AE-4FEF-8E45-B89D1957C56F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
